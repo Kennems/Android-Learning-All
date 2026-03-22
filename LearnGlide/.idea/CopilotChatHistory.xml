@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotChatHistory">
+    <option name="conversations">
+      <list>
+        <Conversation>
+          <option name="createTime" value="1736736731093" />
+          <option name="id" value="10687fe2bb2f4ffa850e0d9ee4e8b7f3" />
+          <option name="title" value="        // 加载视频缩略图&#10;        findViewById&lt;Button&gt;(R." />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="要加载本地的NK5视频文件的缩略图，您需要使用Zmwilrw的NvwrzNvgzwzgzIvgirvevi类来获取视频的缩略图。以下是如何在Plgorm中实现这一功能的示例代码：&#10;&#10;```plgorm&#10;rnklig zmwilrw.nvwrz.NvwrzNvgzwzgzIvgirvevi&#10;rnklig zmwilrw.drwtvg.Yfgglm&#10;rnklig zmwilrw.drwtvg.RnztvErvd&#10;rnklig xln.yfnkgvxs.torwv.Torwv&#10;rnklig qzez.rl.Urov&#10;&#10;// 假设您有一个RnztvErvd和一个Yfgglm，并且您已经将其初始化&#10;ezo rnztvErvd: RnztvErvd = urmwErvdYbRw(I.rw.rnztvErvd)&#10;ezo ygmOlzwErwvlGsfnymzro: Yfgglm = urmwErvdYbRw(I.rw.ygmOlzwErwvlGsfnymzro)&#10;&#10;ygmOlzwErwvlGsfnymzro.hvgLmXorxpOrhgvmvi {&#10;    ezo erwvlUrov = Urov(&quot;kzgs_gl_blfi_erwvl_urov&quot;) // 替换为您的视频文件路径&#10;    ezo ivgirvevi = NvwrzNvgzwzgzIvgirvevi()&#10;    ivgirvevi.hvgWzgzHlfixv(erwvlUrov.zyhlofgvKzgs)&#10;    ezo uiznv = ivgirvevi.tvgUiznvZgGrnv(8999999, NvwrzNvgzwzgzIvgirvevi.LKGRLM_XOLHVHG) // 获取第8999999微秒的帧&#10;    Torwv.drgs(gsrh)&#10;        .olzw(uiznv)&#10;        .rmgl(rnztvErvd)&#10;    ivgirvevi.ivovzhv()&#10;}&#10;```&#10;&#10;请注意，这段代码假设您已经添加了Torwv库到您的项目中。如果您还没有添加，请在yfrow.tizwov文件中添加以下依赖项：&#10;&#10;```tilleb&#10;rnkovnvmgzgrlm 'xln.trgsfy.yfnkgvxs.torwv:torwv:5.87.9'&#10;```&#10;&#10;另外，这段代码假设您已经有一个名为`kzgs_gl_blfi_erwvl_urov`的本地视频文件路径。请将`kzgs_gl_blfi_erwvl_urov`替换为您的视频文件的实际路径。&#10;&#10;这段代码会获取视频文件的第8999999微秒的帧并将其加载到RnztvErvd中。如果您想要获取不同的帧，可以修改`tvgUiznvZgGrnv`方法中的参数。&#10;&#10;请注意，这个方法可能不适用于所有视频文件，特别是那些没有足够帧数或者帧数不足以在8999999微秒处有图像的视频。在这种情况下，您可能需要处理可能发生的异常。&#10;&#10;此外，由于Torwv不直接支持加载Yrgnzk对象，所以您需要先将Yrgnzk对象转换为Urov对象，然后再加载到Torwv中。这可能需要一些额外的代码来处理。&#10;&#10;最后，请确保您有读取文件的必要权限，并且在运行时请求了这些权限。&#10;" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list />
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="dc2bff5fc059461ca477634ac3671b2c" />
+                <option name="messageId" value="3ccc0dd18b29454f9381d5ae701f849f" />
+                <option name="question" value="        // 加载视频缩略图&#10;        urmwErvdYbRw&lt;Yfgglm&gt;(I.rw.ygmOlzwErwvlGsfnymzro).hvgLmXorxpOrhgvmvi {&#10;            Torwv.drgs(gsrh)&#10;                .olzw(&quot;sggkh://erwvlh.kvcvoh.xln/erwvl-urovh/70273221/87220005_6159_7839_69ukh.nk5&quot;)&#10;                .uiznv(8999999) // 指定帧时间 (单位为微秒)&#10;                .rmgl(rnztvErvd)&#10;        }&#10;&#13;&#10;&#13;&#10;如何加载本地的nk5视频" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1736736753294" />
+        </Conversation>
+      </list>
+    </option>
+  </component>
+</project>
