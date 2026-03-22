@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 基本通知按钮 -->
+    <Button
+        android:id="@+id/btnBasicNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="基本通知"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- BigTextStyle通知按钮 -->
+    <Button
+        android:id="@+id/btnBigTextNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BigTextStyle通知"
+        app:layout_constraintTop_toBottomOf="@id/btnBasicNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- BigPictureStyle通知按钮 -->
+    <Button
+        android:id="@+id/btnBigPictureNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BigPictureStyle通知"
+        app:layout_constraintTop_toBottomOf="@id/btnBigTextNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- InboxStyle通知按钮 -->
+    <Button
+        android:id="@+id/btnInboxNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="InboxStyle通知"
+        app:layout_constraintTop_toBottomOf="@id/btnBigPictureNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- MessagingStyle通知按钮 -->
+    <Button
+        android:id="@+id/btnMessagingNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="MessagingStyle通知"
+        app:layout_constraintTop_toBottomOf="@id/btnInboxNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnHeadsUpNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Heads up 通知"
+        app:layout_constraintTop_toBottomOf="@id/btnMessagingNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnSoundVibrateNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="声音与震动测试"
+        app:layout_constraintTop_toBottomOf="@id/btnHeadsUpNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- 取消所有通知按钮 -->
+    <Button
+        android:id="@+id/btnCancelNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="取消所有通知"
+        app:layout_constraintTop_toBottomOf="@id/btnSoundVibrateNotification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
