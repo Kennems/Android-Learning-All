@@ -105,7 +105,7 @@ private suspend fun updateResultsWithCallbackSuspend(
 @Composable
 fun ContributorApp() {
     var username by remember { mutableStateOf("kennems") }
-    var token by remember { mutableStateOf("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") }
+    var token by remember { mutableStateOf(BuildConfig.GITHUB_TOKEN) }
     var organization by remember { mutableStateOf("kotlin") }
 
     var selectedVariant by remember { mutableStateOf<Variants>(Variants.BLOCKING) }
