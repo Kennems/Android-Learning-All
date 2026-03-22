@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="explorer_the_world_with_us">Explorer the\nWorld with us</string>
+    <string name="get_started">Get Started</string>
+    <string name="intro_info">Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit. Mauris eget justo nec justo ultrices. \nInteger nec justo nec justo ultrices ultricies.</string>
+    <string name="hi_alex">Hi Alex</string>
+    <string name="street_address_city">Street, Address, City...</string>
+    <string name="search">Search</string>
+    <string name="enjoy_your_journey_without_limit">Enjoy your journey\nwithout limit</string>
+    <string name="title">title</string>
+    <string name="reserve">Reserve</string>
+</resources>
