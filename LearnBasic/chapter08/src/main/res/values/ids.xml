@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sp_dropdown" type="id" />
+    <item name="sp_dialog" type="id" />
+    <item name="sp_icon" type="id" />
+    <item name="sp_base" type="id" />
+    <item name="sp_planet" type="id" />
+    <item name="gl_channel" type="id" />
+    <item name="rg_type" type="id" />
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        tools:src="@drawable/diqiu" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="地球"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="地球"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:text="地球快一点毁灭吧！地球快一点毁灭吧！地球快一点毁灭吧！地球快一点毁灭吧！地球快一点毁灭吧！地球快一点毁灭吧！" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_oper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Don't Click it" />
+
+</LinearLayout>

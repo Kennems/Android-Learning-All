@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tv_TextSize_px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textSize"
+        android:textSize="30px"
+        />
+
+    <TextView
+        android:id="@+id/tv_TextSize_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textSize"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_TextSize_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textSize"
+        android:textSize="30sp"
+        />
+<!--    sp跟随系统字体变大而变大-->
+
+    <TextView
+        android:id="@+id/hello_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textSize"
+        android:textSize="30px"
+        />
+</LinearLayout>
