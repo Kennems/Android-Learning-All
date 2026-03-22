@@ -1,0 +1,44 @@
+[submodule "LearnAndroidWeb"]
+    path = TheFirstLineOfCode/LearnAndroidWeb
+    url = https://github.com/Kennems/LearnAndroid.git
+    branch = main
+
+[submodule "LearnARouter"]
+    path = TheFirstLineOfCode/LearnARouter
+    url = https://github.com/Kennems/LearnARouter.git
+    branch = main
+
+[submodule "LearnMaterialDesign"]
+    path = TheFirstLineOfCode/LearnMaterialDesign
+    url = https://github.com/Kennems/LearnMaterialDesign.git
+    branch = main
+
+[submodule "LearnMedia"]
+    path = TheFirstLineOfCode/LearnMedia
+    url = https://github.com/Kennems/LearnMedia.git
+    branch = main
+
+[submodule "LearnTips"]
+    path = TheFirstLineOfCode/LearnTips
+    url = https://github.com/Kennems/LearnTips.git
+    branch = main
+
+[submodule "PermissionX"]
+    path = TheFirstLineOfCode/PermissionX
+    url = https://github.com/Kennems/PermissionX.git
+    branch = main
+
+[submodule "Weather"]
+    path = TheFirstLineOfCode/Weather
+    url = https://github.com/Kennems/Weather.git
+    branch = main
+
+[submodule "LearnJetpack"]
+    path = LearnJetpack
+    url = https://github.com/Kennems/LearnJetpack.git
+    branch = main
+
+[submodule "LearnBasic"]
+    path = LearnBasic
+    url = https://github.com/Kennems/LearnBasic.git
+    branch = main

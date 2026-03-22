@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">JetpackComposeCompositionLocal</string>
+
+    <!-- 普通字符串资源 -->
+    <string name="welcome_message">欢迎使用 Jetpack Compose 应用！</string>
+    <string name="login_button_text">登录</string>
+    <string name="logout_button_text">退出登录</string>
+    <string name="profile_title">个人资料</string>
+    <string name="settings_title">设置</string>
+    <string name="network_error">网络连接失败，请稍后再试。</string>
+    <string name="loading">加载中...</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="delete_confirmation">你确定要删除这条记录吗？</string>
+
+    <!-- 含占位符的字符串资源 -->
+    <string name="greeting_with_name">你好，%1$s！</string>
+    <string name="item_selected_count">你已选择 %1$d 项</string>
+
+    <!-- 复数形式 plural 示例 -->
+    <plurals name="fruit_title">
+        <item quantity="one">%d 个水果</item>
+        <item quantity="other">%d 个水果</item>
+    </plurals>
+
+    <plurals name="message_count">
+        <item quantity="one">你有 %d 条新消息</item>
+        <item quantity="other">你有 %d 条新消息</item>
+    </plurals>
+
+    <plurals name="photo_count">
+        <item quantity="one">%d 张照片</item>
+        <item quantity="other">%d 张照片</item>
+    </plurals>
+</resources>
