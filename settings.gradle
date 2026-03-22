@@ -1,0 +1,13 @@
+rootProject.name = "Android-Learning-All"
+
+// 包含所有的子仓库文件夹
+include ':LearnAndroidWeb'
+include ':LearnGlide'
+include ':LearnARouter'
+include ':WeCompose'
+include ':intro-coroutines'
+include ':JetpackComposeLayouts'
+include ':CoroutineCompare'
+include ':LearnJetpack'
+include ':LearnAndroid'
+include ':LearnHilt'
