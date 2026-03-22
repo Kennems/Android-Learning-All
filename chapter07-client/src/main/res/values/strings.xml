@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chapter07-client</string>
+    <string name="send_mms">发送彩信</string>
+    <string name="file_provider">com/showguan/chapter07_client.fileProvider</string>
+</resources>

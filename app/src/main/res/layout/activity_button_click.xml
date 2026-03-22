@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_click_sigle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="指定单独的单击按钮"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btn_click_public"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="指定公共的单击按钮"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="点击按钮查看显示结果"/>
+
+</LinearLayout>

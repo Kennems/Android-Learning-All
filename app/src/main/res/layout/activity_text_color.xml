@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_TextSize_code_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通颜色设置"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_code_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="八位十六进制颜色设置"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_code_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="六位十六进制颜色设置"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML文件默认透明度颜色设置"
+        android:textColor="#00ff00"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义颜色设置"
+        android:textColor="@color/kennemColor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_bgc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/kennemColor"
+        android:text="XML背景色颜色设置"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_java_bgc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java背景色设置"
+        android:textSize="17sp" />
+
+</LinearLayout>

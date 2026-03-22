@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:gravity="bottom|right"
+        android:padding="10dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/CalcButton"
+            android:text="@string/cancel" />
+        <Button
+            android:id="@+id/btn_divide"
+            style="@style/CalcButton"
+            android:text="@string/divide" />
+        <Button
+            android:id="@+id/btn_multiply"
+            style="@style/CalcButton"
+            android:text="@string/multiply" />
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/CalcButton"
+            android:text="@string/clear" />
+        <Button
+            android:id="@+id/btn_seven"
+            style="@style/CalcButton"
+            android:text="@string/seven" />
+        <Button
+            android:id="@+id/btn_eight"
+            style="@style/CalcButton"
+            android:text="@string/eight" />
+        <Button
+            android:id="@+id/btn_nine"
+            style="@style/CalcButton"
+            android:text="@string/nine" />
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/CalcButton"
+            android:text="@string/add" />
+        <Button
+            android:id="@+id/btn_four"
+            style="@style/CalcButton"
+            android:text="@string/four" />
+        <Button
+            android:id="@+id/btn_five"
+            style="@style/CalcButton"
+            android:text="@string/five" />
+        <Button
+            android:id="@+id/btn_six"
+            style="@style/CalcButton"
+            android:text="@string/six" />
+        <Button
+            android:id="@+id/btn_minus"
+            style="@style/CalcButton"
+            android:text="@string/minus" />
+        <Button
+            android:id="@+id/btn_one"
+            style="@style/CalcButton"
+            android:text="@string/one" />
+        <Button
+            android:id="@+id/btn_two"
+            style="@style/CalcButton"
+            android:text="@string/two" />
+        <Button
+            android:id="@+id/btn_three"
+            style="@style/CalcButton"
+            android:text="@string/three" />
+        <ImageButton
+            android:id="@+id/btn_sqrt"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_columnWeight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/sqrt" />
+        <Button
+            android:id="@+id/btn_reciprocal"
+            style="@style/CalcButton"
+            android:text="@string/reciprocal" />
+        <Button
+            android:id="@+id/btn_zero"
+            style="@style/CalcButton"
+            android:text="@string/zero" />
+        <Button
+            android:id="@+id/btn_dot"
+            style="@style/CalcButton"
+            android:text="@string/dot" />
+        <Button
+            android:id="@+id/btn_equal"
+            style="@style/CalcButton"
+            android:text="@string/equal" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
